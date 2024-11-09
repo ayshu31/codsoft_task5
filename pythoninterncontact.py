@@ -38,6 +38,7 @@ def search_contacts():
             for i in range(0,len(cb)):
                 for j in cb[i]:
                     print(j)
+                print(" ")
             found=True
             break
         if not found:
